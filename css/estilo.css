@@ -179,13 +179,23 @@ h2 {
 }
 
 /* Formatando Imagens */
-img {
-    border: 2px solid #dfdfdf;
-}
 
 img.imagem-principal {
     width: 98%;
     border: 3px solid #dfdfdf;
+}
+
+/* Formatando Cabeçalhos */
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
 }
 
 /* Rodape */
