@@ -95,6 +95,7 @@ body.fotos nav a#fotos {
 #primario {
     width: 270px;
     float: left;
+    margin: 0 0 20px 195px;
 }
 /* 2-box */
 #secundario {
@@ -136,7 +137,7 @@ body.fotos nav a#fotos {
     width: 750px;
     float: left;
     margin: 0 0 20px;
-    background: blue;
+
 }
 
 /* 2-box */
@@ -164,6 +165,10 @@ h2 {
     background: #fff;
     padding: 5px;
     margin-top: 5px;
+}
+
+.formatar {
+    text-align: justify;
 }
 
 /* Rodape */
