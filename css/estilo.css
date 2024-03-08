@@ -163,12 +163,11 @@ body.fotos nav a#fotos {
 
 /* 1 coluna 1-box */
 #uma-coluna #primario {
-    width: 750px;
+    width: 400px;
     float: left;
-    margin: 0 0 20px;
+    margin: 0 20px 10px 15px;
 
 }
-
 /* 2-box */
 #secundario {
     width: 270px;
@@ -177,7 +176,7 @@ body.fotos nav a#fotos {
 }
 /* Caixa */
 .caixa {
-    margin: 10px 0;
+    margin: 10px;
     padding: 5px;
     background: #f3f3f3 url(../img/fundo-caixa.png);
 
