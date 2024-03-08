@@ -15,6 +15,12 @@ header {
 
 }
 
+head .foto1{
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+}
+
 /* Topo da pagina */
 section {
     height: 150px;
@@ -117,12 +123,28 @@ body.fotos nav a#fotos {
 }
 /* fim box 3 */
 
+/* Box 4 colunas fotos */
+#quatro-colunas #primario {
+    
+    float: left;
+    margin: 0 20px 80px 50px;
+    width: 250px;
+    height: 450px;
+}
+
+/* Box 4 colunas fotos */
+#quatro-colunas #secundario {
+    float: left;
+    margin: 50px 20px 80px 50px;
+    width: 250px;
+}
+
 
 /* Inicio box 1 (3 colunas) 1-box */
 #tres-colunas #primario {
     width: 270px;
     float: left;
-    margin: 0 0 20px 195px;
+    margin: 0 0px 20px 195px;
 }
 
 /* 2 colunas 1-box */
@@ -185,6 +207,11 @@ img.imagem-principal {
     border: 3px solid #dfdfdf;
 }
 
+img.imagem-secundaria {
+    width: 98%;
+    border: 3px solid #9c6c6c;
+}
+
 /* Formatando Cabeçalhos */
 h3 {
     text-transform: uppercase;
@@ -195,6 +222,11 @@ h3 {
 
 .destaque h3 {
     background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background: #de003e;
     color: #fff;
 }
 
