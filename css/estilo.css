@@ -110,9 +110,9 @@ body.fotos nav a#fotos {
 }
 /* 3-box */
 #lateral {
-    width: 180px;
+    width: 185px;
     float: left;
-    margin: 0 0 20px -750px;
+    margin: 0 0 15px -750px;
 }
 
 #duas-colunas #lateral {
@@ -142,9 +142,9 @@ body.fotos nav a#fotos {
 
 /* Inicio box 1 (3 colunas) 1-box */
 #tres-colunas #primario {
-    width: 270px;
+    width: 280px;
     float: left;
-    margin: 0 0px 20px 195px;
+    margin: 0 0px 15px 180px;
 }
 
 /* 2 colunas 1-box */
@@ -176,7 +176,7 @@ body.fotos nav a#fotos {
 }
 /* Caixa */
 .caixa {
-    margin: 10px;
+    margin: 15px;
     padding: 5px;
     background: #f3f3f3 url(../img/fundo-caixa.png);
 
@@ -273,6 +273,29 @@ input.submit {
     background-color: #b10333;
     border: 2px splid #870529;
     padding: 5px;
+}
+/* Formatando lista de noticias */
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+/* formatando o link */
+#lista-noticias li a {
+    text-decoration: none;    /* Retira a linha (Sumbliado) de baixo do texto em li */
+}
+/* formatando o titulo h3 */
+#lista-noticias li a h3 {
+    font-size: 0.8em;
+}
+/* formatando o Paragrafo */
+#lista-noticias li a p {
+    font-size: 0.6em;
 }
 
 #container-rodape {
