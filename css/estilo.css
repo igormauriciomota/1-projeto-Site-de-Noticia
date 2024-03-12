@@ -278,7 +278,7 @@ input.submit {
 #lista-noticias li {
     padding: 2px;
     border-bottom: 1px solid #ccc;
-    height: 65px;
+    height: 70px;  /* Altura da caixa li  */
 }
 
 #lista-noticias li a img {
