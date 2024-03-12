@@ -142,9 +142,9 @@ body.fotos nav a#fotos {
 
 /* Inicio box 1 (3 colunas) 1-box */
 #tres-colunas #primario {
-    width: 280px;
+    width: 280px;  /* Modifica a largura das colunas obs: ototal de 750px e dividir por cada coluna e margens */
     float: left;
-    margin: 0 0px 15px 180px;
+    margin: 0 0px 15px 180px; /* tem relação direta com as colunas tem de diminuir a ultima para almentar a largura width */
 }
 
 /* 2 colunas 1-box */
@@ -170,9 +170,9 @@ body.fotos nav a#fotos {
 }
 /* 2-box */
 #secundario {
-    width: 270px;
+    width: 280px;
     float: left;
-    margin: 0 0 20px 15px;
+    margin: 0 0 15px 5px;
 }
 /* Caixa */
 .caixa {
@@ -288,15 +288,25 @@ input.submit {
 /* formatando o link */
 #lista-noticias li a {
     text-decoration: none;    /* Retira a linha (Sumbliado) de baixo do texto em li */
+    color: black;
 }
 /* formatando o titulo h3 */
 #lista-noticias li a h3 {
     font-size: 0.8em;
+    padding: 0;
+    color: #294c71;
 }
 /* formatando o Paragrafo */
 #lista-noticias li a p {
-    font-size: 0.6em;
+    font-size: 0.7em;
 }
+
+/* formatando o hover */
+#lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
 
 #container-rodape {
     background: #294c71;
